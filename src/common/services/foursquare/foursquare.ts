@@ -31,13 +31,11 @@ export class FoursquareService {
         },
       );
 
-      console.log('data', data);
-
       // ensured to handled that data returned from getPhotoUrl is not empty
       if (data.length > 0) {
-      // get the full url of the photo
-      const photoUrl = `${data[0].prefix}original${data[0].suffix}`;
-      return photoUrl;
+        // get the full url of the photo
+        const photoUrl = `${data[0].prefix}original${data[0].suffix}`;
+        return photoUrl;
       }
     } catch (error) {
       console.log(error);
