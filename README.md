@@ -1,4 +1,9 @@
-# 'KYRA MEDIA API SERVER DOCUMENTATION
+# KYRA MEDIA API SERVER DOCUMENTATION
+
+- ##### UI - https://kyra-media.netlify.app/
+
+- ##### SWAGGER DOCS - https://krya-media-assessment.herokuapp.com/api/v1/docs/
+
 ## Getting the App Locally
 
 1. Clone this repository with this command
